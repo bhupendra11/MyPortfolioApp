@@ -1,0 +1,22 @@
+<resources>>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+    <style name="ButtonStyleUdacious" parent="Base.TextAppearance.AppCompat.Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name= "android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">6dp</item>
+        <item name="android:layout_weight">1 </item>
+        <item name="android:background">#F08C35</item>
+        <item name="android:textSize">20sp </item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:onClick">displayToast</item>
+    </style>
+    <style name="ButtonStyleUdacious.Pink">
+        <item name="android:background">#E91E63</item>
+    </style>
+</resources>
