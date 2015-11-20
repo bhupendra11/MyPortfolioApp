@@ -23,35 +23,35 @@
         android:layout_below="@+id/title">
         <Button
           style="@style/ButtonStyleUdacious"
-            android:text="Spotify Streamer"
-            android:id="@+id/button"
+            android:text="@string/spotify_streamer"
+            android:id="@+id/spotifyStreamerButton"
 
             />`
         <Button
             style="@style/ButtonStyleUdacious"
-            android:text="Scores App"
-            android:id="@+id/button1"
+            android:text="@string/scores_app"
+            android:id="@+id/scoresAppButton"
 
             />
         <Button
             style="@style/ButtonStyleUdacious"
-            android:text="Library App"
-            android:id="@+id/button2"
+            android:text="@string/library_app"
+            android:id="@+id/libraryAppButton"
             />
         <Button
             style="@style/ButtonStyleUdacious"
-            android:text="Build it bigger"
-            android:id="@+id/button3"
+            android:text="@string/build_it_bigger"
+            android:id="@+id/buildItBiggerAppButton"
             />
         <Button
             style="@style/ButtonStyleUdacious"
-            android:text="Xyz Reader"
-            android:id="@+id/button4"
+            android:text="@string/xyz_reader"
+            android:id="@+id/xyzReaderButton"
             />
         <Button
             style="@style/ButtonStyleUdacious.Pink"
-            android:text="Capstone:My Own App"
-            android:id="@+id/button5"
+            android:text="@string/capstone_my_own_app"
+            android:id="@+id/CapstoneMyOwnAppButton"
             />
 
 
@@ -61,7 +61,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="My Nanodegree Apps!"
+        android:text="@string/listTitle"
         android:id="@+id/title"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
